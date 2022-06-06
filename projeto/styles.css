@@ -26,6 +26,7 @@
     width: 100%;
     max-width: 500px;
     min-height: 100vh;
+    padding: clamp(35px, 8%, 70px);
     
 }
 
@@ -33,5 +34,29 @@
     width: 130px;
     margin-bottom: 100px;
     margin-top: 150px;
-
 }
+
+.login__title {
+    color: var(--deep-grey);
+    font-size: 1.5rem;
+}
+
+.login__label {    
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.input {
+    width: 100%;
+    background-color: var(--light-grey);
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 0.9rem;
+    padding: 25px 10px 10px;
+    font-weight: 600;
+    color: var(--deep-grey);
+}
+
+
