@@ -26,8 +26,7 @@
     width: 100%;
     max-width: 500px;
     min-height: 100vh;
-    padding: clamp(35px, 8%, 70px);
-    
+    padding: clamp(35px, 8%, 70px);    
 }
 
 .login__logo {
@@ -39,6 +38,7 @@
 .login__title {
     color: var(--deep-grey);
     font-size: 1.5rem;
+    margin-bottom: 30px;
 }
 
 .login__label {    
@@ -50,13 +50,61 @@
 .input {
     width: 100%;
     background-color: var(--light-grey);
-    border: none;
+    border: 2px solid  rgba(0, 0, 0, 0);
     border-radius: 5px;
     outline: none;
     font-size: 0.9rem;
     padding: 25px 10px 10px;
     font-weight: 600;
-    color: var(--deep-grey);
+    color: var(--deep-grey);    
 }
+
+.login__label span {
+    position: absolute;
+    font-size: .8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--medium-grey);
+    margin: 20px;
+    cursor: text;
+    transition: all 200ms ease;
+}
+
+.input:focus {
+    background-color: var(--whitesmoke);
+    border: 2px solid  var(--deep-grey);
+}
+
+.login__label .span-active {
+    font-size: .7rem;
+    margin: 8px 10px;
+}
+
+.login__icons {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.login__icons img {
+    width: 20px;
+}
+
+.icons__button {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.icons__button:hover {
+    background-color: #ccc;
+}
+
 
 
