@@ -61,6 +61,12 @@ main {
     margin-bottom: 20px;
 }
 
+.login__form {    
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+}
+
 .input {
     width: 100%;
     background-color: var(--light-grey);
@@ -103,6 +109,7 @@ main {
 
 .login__icons img {
     width: 20px;
+    
 }
 
 .icons__button {
@@ -115,6 +122,10 @@ main {
     cursor: pointer;
     border: none;
 }
+
+
+
+
 
 /* .login__icons .icons__button:nth-child(1) {
     background-color: var(--grey);
